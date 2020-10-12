@@ -1,15 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body {
+	text-align:center;
+}
+
 h1{
 	color: white;
     background-color: purple;
     padding-top: 5%;
     padding-bottom: 5%;
-    text-align: center;
     width: 100%;
 }
 
 p{
-	text-align: center;
 	padding-top: 3%;
 	padding-bottom: 3%;
 	color: purple;
+}
+
+button {
+	font-family: sans-serif;
+}
+
+#container {
+	border-radius: 25px;
+	padding: 2%;
+	width: 85%;
+	margin: auto;
+	max-width: 1500px;
+}
+
+section {
+	margin-top: 50px;
+}
+
+section p {
+	padding-top: 10px;
+}
+
+h2, h3 {
+	margin-top: 20px;
+}
+
+button {
+    background-color: #2165B0;
+	border: 5px solid purple;
+    color: purple;
+    padding: 65px 75px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+#button1{
+	background-color: yellow;
+}
+
+#button2{
+	background-color:aquamarine;
+}
+
+#button3{
+	background-color: lawngreen;
 }
